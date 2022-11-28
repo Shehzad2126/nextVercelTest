@@ -13,9 +13,11 @@ export default function Home() {
       <div
         class="grow-0 shrink-1 md:shrink-0 basis-auto xl:w-6/12 lg:w-6/12 md:w-9/12 mb-12 md:mb-0"
       >
-        <img
+        <Image
           src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
           class="w-full"
+          width={100}
+          height={100}
           alt="Sample image"
         />
       </div>
@@ -111,7 +113,7 @@ export default function Home() {
             >
               Login
             </button>
-            <p class="text-sm font-semibold mt-2 pt-1 mb-0">Don't have an account?
+            <p class="text-sm font-semibold mt-2 pt-1 mb-0">Dont have an account?
               <a
                 href="#!"
                 class="text-red-600 hover:text-red-700 focus:text-red-700 transition duration-200 ease-in-out"
